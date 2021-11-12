@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:8080/docker?characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8081
